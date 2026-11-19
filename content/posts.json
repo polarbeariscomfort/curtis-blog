@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "title": "Vegan Katsu Curry Recipe",
+      "date": "2026-11-12",
+      "tags": [
+        "Recipe"
+      ],
+      "cover": "/images/uploads/IMG_0299.jpg",
+      "cover_caption": "Carrot and Tofu Katsu!",
+      "photos": [
+        {
+          "image": "/images/uploads/IMG_0298.jpg",
+          "caption": "Packed Lunches..."
+        }
+      ],
+      "body": "Decided to make a short video for the PB socials to try and show people just how simple and delicious your meals can be.",
+      "links": [
+        {
+          "label": "Check out my video!",
+          "url": "https://drive.google.com/file/d/1_7pi7oMf7lXOVcs2iED2v-_9IMFDQWPL/view?usp=sharing"
+        }
+      ],
+      "draft": false
+    },
+    {
       "title": "Why I'm taking on this challenge",
       "date": "2026-11-02",
       "tags": [
