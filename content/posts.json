@@ -1,8 +1,34 @@
 {
   "posts": [
     {
+      "title": "VegFest Brighton!",
+      "date": "2026-11-07",
+      "tags": [
+        "Road Trip"
+      ],
+      "cover": "/images/uploads/pasted-image-1795081521378.png",
+      "cover_caption": "Vegfest UK Ad",
+      "photos": [
+        {
+          "image": "/images/uploads/10cded89-bd65-4b17-9202-f98884324f1e.JPG",
+          "caption": "Stalls"
+        },
+        {
+          "image": "/images/uploads/IMG_0091.jpeg",
+          "caption": "Delicious baked goods"
+        },
+        {
+          "image": "/images/uploads/IMG_8739.jpeg",
+          "caption": "Beautiful beach (first time in Brighton... I was a bit of a Tourist)"
+        }
+      ],
+      "body": "Me and some of the members of PB cam went to Brighton this Saturday to check out Vegfest!\n\nThere were lots of delicious stalls and insightful lectures. Hoping to share some new ideas with my colleagues and peers",
+      "links": [],
+      "draft": false
+    },
+    {
       "title": "Vegan Katsu Curry Recipe",
-      "date": "2026-11-12",
+      "date": "2026-11-11",
       "tags": [
         "Recipe"
       ],
