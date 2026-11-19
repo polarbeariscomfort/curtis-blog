@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "title": "Why I'm taking on this challenge",
+      "date": "2026-11-18",
+      "tags": [
+        "Update"
+      ],
+      "cover": "/images/uploads/sample-1.svg",
+      "cover_caption": "Sample photo – replace with your own",
+      "photos": [
+        {
+          "image": "/images/uploads/sample-2.svg",
+          "caption": "Another sample photo"
+        }
+      ],
+      "body": "I've eaten plant-based for a while, but I want to do **more than change my own plate**. Over the coming months I'll be working with Plant-Based Cambridge to get academics signing the open letter, and sharing resources to help anyone who wants to make the switch.\n\nThis is a sample post so you can see how things look. Edit or delete it from the `/admin` page.\n\n> Individual change matters. Institutional change scales it.",
+      "links": [
+        {
+          "label": "See it on Instagram",
+          "url": "https://www.instagram.com/curtisjone.s/"
+        }
+      ],
+      "draft": false
+    }
+  ]
+}

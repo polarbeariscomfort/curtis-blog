@@ -1,0 +1,104 @@
+# Editor settings for your blog.
+# Your GitHub repository (username/repository-name). Change this if you rename the repo.
+
+backend:
+  name: github
+  repo: polarbeariscomfort/curtis-blog
+  branch: main
+
+# Where uploaded photos are saved, and the path the site uses to show them
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: blog
+    label: Blog
+    files:
+      # ---------- Posts ----------
+      - name: posts
+        label: Posts
+        file: content/posts.json
+        fields:
+          - name: posts
+            label: Posts
+            label_singular: Post
+            widget: list
+            add_to_top: true
+            summary: "{{fields.date}} · {{fields.title}}"
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: date, label: Date, widget: datetime, time_format: false, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD" }
+              - { name: tags, label: Tags, widget: list, required: false, hint: "e.g. Recipe, Event, Update – used for the filter buttons" }
+              - { name: cover, label: Main photo, widget: image, required: false }
+              - { name: cover_caption, label: Main photo caption, widget: string, required: false }
+              - name: photos
+                label: More photos
+                label_singular: Photo
+                widget: list
+                required: false
+                fields:
+                  - { name: image, label: Photo, widget: image }
+                  - { name: caption, label: Caption, widget: string, required: false }
+              - { name: body, label: Write-up, widget: markdown, required: false }
+              - name: links
+                label: Links (e.g. your Instagram post)
+                label_singular: Link
+                widget: list
+                required: false
+                fields:
+                  - { name: label, label: Button text, widget: string }
+                  - { name: url, label: Web address, widget: string }
+              - { name: draft, label: Hide this post (draft), widget: boolean, default: false, required: false }
+
+      # ---------- Site settings ----------
+      - name: site
+        label: Site settings (title, logos, socials)
+        file: content/site.json
+        fields:
+          - { name: eyebrow, label: Small label above the title, widget: string, required: false }
+          - { name: title, label: Blog title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - { name: intro, label: Intro paragraph, widget: text, required: false }
+          - { name: footer, label: Footer text, widget: string, required: false }
+          - name: letter
+            label: Open letter section
+            widget: object
+            hint: "Leave the heading empty to hide this whole section"
+            fields:
+              - { name: kicker, label: Small label (e.g. For University of Cambridge academics), widget: string, required: false }
+              - { name: heading, label: Heading, widget: string, required: false }
+              - { name: text, label: Text, widget: text, required: false }
+              - { name: email, label: Your email address, widget: string, required: false }
+              - { name: button_label, label: Email button text, widget: string, required: false }
+              - { name: email_subject, label: Email subject (pre-filled for people), widget: string, required: false }
+              - { name: email_body, label: Email message (pre-filled for people), widget: text, required: false }
+              - { name: letter_title, label: Letter title, widget: string, required: false }
+              - { name: letter_body, label: Letter text, widget: markdown, required: false, hint: "Only the first few lines show until someone clicks 'Read the full letter'" }
+              - { name: references, label: Letter references, widget: markdown, required: false }
+          - { name: resources_intro, label: Resources intro, widget: text, required: false }
+          - name: resources
+            label: Resources
+            label_singular: Resource
+            widget: list
+            required: false
+            summary: "{{fields.category}} · {{fields.title}}"
+            fields:
+              - { name: category, label: Group (e.g. Recipes), widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Short description, widget: text, required: false }
+              - { name: url, label: Web address, widget: string }
+          - name: logos
+            label: Logos
+            label_singular: Logo
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: image, label: Logo image, widget: image, required: false }
+              - { name: url, label: Link to, widget: string }
+          - name: socials
+            label: Social links
+            label_singular: Social link
+            widget: list
+            fields:
+              - { name: label, label: Name (e.g. Instagram), widget: string }
+              - { name: url, label: Web address, widget: string }

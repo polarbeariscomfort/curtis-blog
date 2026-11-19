@@ -1,0 +1,8 @@
+# No build step needed: Netlify serves these files as they are.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Personal Challenge",
+  "title": "Curtis Jones' Blog",
+  "subtitle": "Pushing myself to do more climate activism",
+  "intro": "I already eat plant-based. This challenge is about doing more than that: encouraging others to make the switch, and pushing for institutional change at the University of Cambridge. Here's what I get up to along the way.",
+  "footer": "Curtis Jones · Personal Challenge",
+  "letter": {
+    "kicker": "For University of Cambridge academics",
+    "heading": "Sign the open letter on plant-based catering",
+    "text": "I'm supporting Plant-Based Cambridge in calling on the University and its Colleges to move to plant-based catering. To sign, you need to be an academic at the University of Cambridge. Email me with your name, role and department or College, and I'll add you.",
+    "email": "clj49@cam.ac.uk",
+    "button_label": "Email me to sign",
+    "email_subject": "Signing the open letter on plant-based catering",
+    "email_body": "Hi Curtis,\n\nI'd like to sign the open letter calling for plant-based catering across the University of Cambridge and its Colleges.\n\nName:\nRole / title:\nDepartment or College:\n\nThanks,",
+    "letter_title": "Open letter: plant-based catering at the University of Cambridge",
+    "letter_body": "Dear Vice-Chancellor, Pro-Vice-Chancellors, College Masters, Bursars, Catering Managers, and Members of the University of Cambridge Community:\n\nWe, the undersigned members of the University of Cambridge, urge the University and its Colleges to transition to plant-based catering in response to the climate emergency, growing threats to public health, and broader ethical considerations.\n\nThe scientific consensus is clear: the global food system accounts for roughly one-third of global anthropogenic greenhouse gas emissions, with animal agriculture responsible for a majority of this impact¹. Transitioning to a plant-based food system could substantially reduce greenhouse gas emissions, particularly in high-income countries, as well as decrease land use for food production², enabling large-scale carbon sequestration and strengthening food security. Moreover, reducing reliance on animal-source foods can mitigate the risks of antimicrobial resistance and zoonotic disease outbreaks, both of which are already fueled by animal agriculture³.\n\nIn 2023, the Cambridge Students' Union voted to support a transition to fully plant-based catering across the University of Cambridge. As a globally influential research institution, the University of Cambridge has a responsibility to lead by example in addressing climate change. The University's decisions carry weight far beyond its own community, shaping public discourse and influencing policy. By aligning its institutional practices with the best scientific evidence, the University not only acknowledges the urgency of climate change mitigation but actively demonstrates evidence-based sustainability leadership.\n\nThe adverse effects of climate change disproportionately impact communities in regions that have contributed the least to global emissions but bear the brunt of environmental degradation and food insecurity. A university-wide transition to plant-based catering represents a critical opportunity to enact a just and science-driven response to this crisis.\n\nWe call on the University of Cambridge and its Colleges to fulfill their climate and sustainability commitments by implementing high-quality, inclusive, ethical, and environmentally sustainable plant-based catering across all university and college dining facilities.",
+    "references": "1. Babiker, M., G. Berndes, K. Blok, B. Cohen, A. Cowie, O. Geden, V. Ginzburg, A. Leip, P. Smith, M. Sugiyama, F. Yamba, 2022: Cross-sectoral perspectives. In IPCC, 2022: *Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change* [P.R. Shukla, J. Skea, R. Slade, A. Al Khourdajie, R. van Diemen, D. McCollum, M. Pathak, S. Some, P. Vyas, R. Fradera, M. Belkacemi, A. Hasija, G. Lisboa, S. Luz, J. Malley, (eds.)]. Cambridge University Press, Cambridge, UK and New York, NY, USA. doi: [10.1017/9781009157926.005](https://doi.org/10.1017/9781009157926.005).\n2. Poore, J. M. P., and S. Nemecek. \"Reducing Food's Environmental Impacts through Producers and Consumers.\" *Science* 360, no. 6392 (2018): 987–992.\n3. Hayek, Matthew N. \"The infectious disease trap of animal agriculture.\" *Science Advances* 8, no. 44 (2022): eadd6681."
+  },
+  "resources_intro": "Want to eat more plants yourself? These are the places I'd start.",
+  "resources": [
+    {
+      "category": "Why it matters",
+      "title": "Environmental impacts of food",
+      "description": "Our World in Data's clear charts comparing the emissions, land and water use of different foods.",
+      "url": "https://ourworldindata.org/environmental-impacts-of-food"
+    },
+    {
+      "category": "Why it matters",
+      "title": "Poore & Nemecek (2018), Science",
+      "description": "The landmark study on food's environmental footprint across ~38,000 farms.",
+      "url": "https://doi.org/10.1126/science.aaq0216"
+    },
+    {
+      "category": "Getting started",
+      "title": "NHS: the vegan diet",
+      "description": "How to get all the nutrients you need, including B12, iron and omega-3.",
+      "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+    },
+    {
+      "category": "Getting started",
+      "title": "Veganuary",
+      "description": "A free month-long challenge with daily emails, meal plans and recipes.",
+      "url": "https://veganuary.com/"
+    },
+    {
+      "category": "Recipes",
+      "title": "BBC Good Food vegan recipes",
+      "description": "Hundreds of reliable, everyday recipes to try.",
+      "url": "https://www.bbcgoodfood.com/recipes/collection/vegan-recipes"
+    },
+    {
+      "category": "Get involved",
+      "title": "Plant-Based Universities",
+      "description": "The national student campaign for plant-based catering at universities.",
+      "url": "https://www.plantbaseduniversities.org/"
+    }
+  ],
+  "logos": [
+    {
+      "name": "FIBE3 CDT",
+      "image": "/images/logos/fibe-cdt.png",
+      "url": "https://www.net-zero-fibe-cdt.eng.cam.ac.uk/"
+    },
+    {
+      "name": "University of Cambridge",
+      "image": "/images/logos/cambridge.png",
+      "url": "https://www.cam.ac.uk/"
+    }
+  ],
+  "socials": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/curtisjone.s/"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/curtis-jones-a8742a189/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:clj49@cam.ac.uk"
+    }
+  ]
+}
