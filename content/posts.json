@@ -2,23 +2,23 @@
   "posts": [
     {
       "title": "Why I'm taking on this challenge",
-      "date": "2026-11-18",
+      "date": "2026-11-02",
       "tags": [
         "Update"
       ],
-      "cover": "/images/uploads/sample-1.svg",
-      "cover_caption": "Sample photo – replace with your own",
+      "cover": "/images/uploads/curtis face.jpg",
+      "cover_caption": "My face!",
       "photos": [
         {
-          "image": "/images/uploads/sample-2.svg",
-          "caption": "Another sample photo"
+          "image": "/images/uploads/pasted-image-1795080834611.png",
+          "caption": ""
         }
       ],
-      "body": "I've eaten plant-based for a while, but I want to do **more than change my own plate**. Over the coming months I'll be working with Plant-Based Cambridge to get academics signing the open letter, and sharing resources to help anyone who wants to make the switch.\n\nThis is a sample post so you can see how things look. Edit or delete it from the `/admin` page.\n\n> Individual change matters. Institutional change scales it.",
+      "body": "When I did my undergrad I dipped in and out of being a vergetarian, fortunate that I was brought up with a lot of veggie food so it didn't seem too intimidating. When I was studying I saw an article that discussed Cambridge attempting to go fully plant based. I was pretty shocked at the idea, but it did make me stop and think about my own eating habits - wanting to make more effort to change and adapt my own eating habits. \n\nSince then I've learned lots of plant based recipes and I've grown more confident in my own diet and cooked for some of my friends too!\n\nBut, I find activism and discussing these changes with others very intimidating and I really prefer to avoid confrontation. That's why I am taking on this challenge, and trying to push myself to talk to people and try and spread the campaigns mission!\n\nOver the coming months I'll be working with Plant-Based Cambridge to get academics signing the open letter, and sharing resources to help anyone who wants to make the switch.",
       "links": [
         {
-          "label": "See it on Instagram",
-          "url": "https://www.instagram.com/curtisjone.s/"
+          "label": "Follow PB Cambridge on Instagram and follow us for news and updates!",
+          "url": "https://www.instagram.com/plantbased_cam/"
         }
       ],
       "draft": false
